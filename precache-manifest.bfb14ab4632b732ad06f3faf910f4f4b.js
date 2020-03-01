@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f86a36183188b2fa5bbb7b29d8db26c8",
+    "revision": "533a0b02983f6ecade20cc2c6274ffef",
     "url": "/easy-english/index.html"
   },
   {
-    "revision": "186d1ddd2f46caef4e42",
-    "url": "/easy-english/static/css/main.fbd2de5e.chunk.css"
+    "revision": "0e865720dfc87b3f83ea",
+    "url": "/easy-english/static/css/main.1152cff2.chunk.css"
   },
   {
     "revision": "2cc71d31b382ae4643e8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/easy-english/static/js/2.2ef3d3ba.chunk.js.LICENSE"
   },
   {
-    "revision": "186d1ddd2f46caef4e42",
-    "url": "/easy-english/static/js/main.93b25dd1.chunk.js"
+    "revision": "0e865720dfc87b3f83ea",
+    "url": "/easy-english/static/js/main.0a24bb2e.chunk.js"
   },
   {
     "revision": "fe07ffa58a970e983345",
