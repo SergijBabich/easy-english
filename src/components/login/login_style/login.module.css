@@ -19,7 +19,7 @@
   border-radius: 10px;
   box-shadow: inset -1px 1px 31px rgba(255, 255, 255, 0.3), inset 1px 1px 0px rgba(255, 255, 255, 0.3);
       border: 1px solid #000;
-  background-color:#00000012;
+  background-color:#fff;
 }
 .login h2 {
     margin: .5em;
@@ -45,7 +45,7 @@ input {
   .error {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 18px;
-    color: aqua;
+    color: #ff1212;
   }
 .password__container {
   height: 45px;
