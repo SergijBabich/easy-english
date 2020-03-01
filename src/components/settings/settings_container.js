@@ -4,6 +4,7 @@ import {connect} from   'react-redux';
 import settings from './settings.js'
 import authReducer from "../../Redux/Auth_Reducer";
 import {logOut} from  '../../Redux/Auth_Reducer.js';
+import {removeCardUser} from  '../../Redux/Auth_Reducer.js';
 import Settings from './settings.js';
 
 
@@ -14,5 +15,5 @@ let mapStateToProps = (state) => {
   }
 }
 
- let SettingsContainer =  connect(mapStateToProps, {logOut})(Settings);
+ let SettingsContainer =  connect(mapStateToProps, {logOut, removeCardUser})(Settings);
 export default SettingsContainer;

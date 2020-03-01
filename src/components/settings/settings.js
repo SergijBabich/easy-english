@@ -4,9 +4,12 @@ import {NavLink} from 'react-router-dom';
 import { Redirect } from 'react-router-dom';
 const Settings = (props) => {
   const setLogOut = () => {
-    props.logOut(props.id);
+    console.log(props)
+    props.removeCardUser(props.id);   
+    let id = props.id;
+    id =null;
+    props.logOut(id);
     localStorage.clear();
-    return <Redirect to ={`/login`} />
   }
   if (!props.id) {
         return <Redirect to ={`/login`} />
@@ -38,8 +41,10 @@ const Settings = (props) => {
            </div>
            <div class={set.settings_items}>
              <span>Delete account</span>
-             <a  href="../login"><button onClick={setLogOut} type="button" class={set.button} name="button">Delete </button> </a>
-           </div>
+             <NavLink to ='login'>
+                <div><button onClick={setLogOut} type="button" class={set.button} name="button">Delete </button> </div>
+             </NavLink >
+          </div>
          </div>
        </div>
      </div>

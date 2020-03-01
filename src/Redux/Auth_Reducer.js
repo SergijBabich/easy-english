@@ -5,6 +5,7 @@ import {userData} from './Profile_Reducer.js';
 const SET_USER_DATA =  'SET-USER-DATA';
 const GET_USER_DATA  = 'GET-USER-DATA';
 const GET_ERROR = 'GET-ERROR';
+const EXIT_CONFIRMATION = 'EXIT-CONFIRMATION';
 let initialState = {
   login:null,
   password:null,
@@ -27,8 +28,11 @@ const authReducer = (state = initialState, action) => {
               return {
              ...state ,  message:action.message
                }
-
-     default:
+            case EXIT_CONFIRMATION:
+            return {
+                id:action.id
+            }
+                 default:
           return state;
     }
 }
@@ -55,6 +59,14 @@ export let getError = (message) => {
   }
 }
 
+export let exitСonfirmation  = (id) => {
+  return {
+    type: EXIT_CONFIRMATION,
+    id
+
+  }
+}
+
 
 
  export const register = (login, password) => {
@@ -74,18 +86,19 @@ export let getError = (message) => {
       dispatch(getUserAuth(data.login, data.password, data._id));
       dispatch(getError(data.sendCode));
       dispatch(userData(data))
-          console.log(data.login);
-          console.log(data.password);
 
   }
 }
 
 export const logOut = (id) => {
    return   async (dispatch) => {
-      console.log(id);
-      let response  = await authAPI.logOut(id);
+      dispatch(exitСonfirmation(id));
    }
-       console.log("DFSDFS");
+}
+export const removeCardUser = (id) => {
+   return   async (dispatch) => {
+      let data = await authAPI.deleteUser(id);
+   }
 }
 
 export default authReducer;

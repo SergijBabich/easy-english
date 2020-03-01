@@ -141,12 +141,10 @@ const descReducer  = ( state = initialState, action) => {
 
 
 export const putUserLevel = (src, value, date, level, id) => {
-  console.log(level);
     return  async(dispatch) => {
     let data = await profileAPI.setUserLevel(level, id );
       dispatch(setUserAnswer(src, value, date));
-      dispatch(setUserLevel(data.value.level))
-      console.log(data);
+      dispatch(setUserLevel(+data.value.level))
   }
 }
 

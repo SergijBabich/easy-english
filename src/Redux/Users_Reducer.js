@@ -49,7 +49,6 @@ const usersReducer = (state = initialState, action) => {
   }
  }
  export const getUsers = (page) => {
-   console.log(page);
    return async (dispatch) => {
      let data = await usersAPI.getUsers(page);
      dispatch(setCurrentPageNumber(page));

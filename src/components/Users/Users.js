@@ -2,7 +2,6 @@ import React from 'react';
 import us from './Users.module.css';
 import Paginator from '../../Utils/Paginator/Paginator.js';
 const Users = (props) => {
-  console.log(props);
     let pagesCount = Math.ceil(props.totalUsersCount / props.page);
     let pages = [];
     for (let i = 0; i <= pagesCount; i++) {

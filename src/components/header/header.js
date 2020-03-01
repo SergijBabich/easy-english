@@ -5,7 +5,12 @@ import { Redirect } from 'react-router-dom';
 import firstIcon from '../img/boy.png';
 
 const Header = (props) => {
-  console.log(props);
+ let getOut = () => {
+   localStorage.clear();
+   let id = props.id;
+   id = null;
+   props.logOut(id);
+ }
    return (
      <div class={header.header__container}>
       <NavLink to ={'/login'} >
@@ -18,13 +23,14 @@ const Header = (props) => {
     </NavLink>
        <div class={header.header__authorize}>
          <div class={header.button__wrapper}>
-        <a class={header.button} onClick={()=> {localStorage.clear()}} href="../login">
+      <NavLink to ={'/login'} >  <p class={header.button} onClick={getOut}>
               {props.id &&
                 <div>
                   <img src={props.avatar || firstIcon} />
                   <div class={header.logout}>LOGOUT</div>
                  </div> }
-           </a>
+           </p>
+      </NavLink>
          </div>
        </div>
      </div>

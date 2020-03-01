@@ -51,7 +51,7 @@ class  DescribePicture extends  React.Component {
               <span className={desc.description__help}>Try to describe this picture as extensively as possible, you can use auxiliary words</span>
              <div className={desc.description__task}>
                <div className={desc.description__img}>
-                  <img src={this.props.decsriptionPicture[ this.state.rand].src ||loader}/>
+                <img src={this.props.decsriptionPicture[ this.state.rand].src ||loader}/>
                </div>
                <div class={desc.task_helper}>
                  <li>{this.props.decsriptionPicture[ this.state.rand].someWords[0]}</li>
