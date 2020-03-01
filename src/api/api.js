@@ -4,7 +4,7 @@ import * as axios from 'axios';
 
 const instance = axios.create({
     withCredentials: true,
-    baseURL: 'https://gentle-beyond-33844.herokuapp.com/',
+    baseURL: 'http://localhost:3012/',
 
 });
 export const profileAPI = {

@@ -4,8 +4,7 @@ import {NavLink} from 'react-router-dom';
 import { Redirect } from 'react-router-dom';
 const Settings = (props) => {
   const setLogOut = () => {
-    console.log(props)
-    props.removeCardUser(props.id);   
+    props.removeCardUser(props.id);
     let id = props.id;
     id =null;
     props.logOut(id);

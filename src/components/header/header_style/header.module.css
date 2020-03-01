@@ -119,13 +119,13 @@
   display: flex;
   align-items: center;
 }
-.button__wrapper a:hover {
+.button__wrapper p:hover {
   width: 130px;
 }
-.button__wrapper a:hover .logout{
+.button__wrapper p:hover .logout{
   opacity: .9;
 }
-.button__wrapper a {
+.button__wrapper p {
   text-decoration: none;
 }
 .header_heigth {
