@@ -14,14 +14,14 @@ import LoginContainer from  './components/login/Login_container.js';
 import HistoryContainer from './components/history/history_container.js';
 import Footer from  './components/footer/footer.js';
 import Start from  './components/startPage/startPage.js';
-import {BrowserRouter, Route, withRouter} from  'react-router-dom';
+import {HashRouter, Route, withRouter} from  'react-router-dom';
 import {Provider} from  'react-redux';
 import {compose} from "redux";
 import store from './Redux/redux_store.js';
 const   App = () => {
   return (
         <div className='app__wrapper'>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
          <Provider store ={store}>
             <HeaderContainer />
             <Route exact path='/' render={() => <Redirect to='/start'/>}/>
@@ -54,7 +54,7 @@ const   App = () => {
           </div>*/}
 
          </Provider>
-      </BrowserRouter>
+      </HashRouter>
         </div>
   );
 }
