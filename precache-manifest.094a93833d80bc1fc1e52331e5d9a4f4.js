@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7df266d2556a6c628ad7118c297980c",
+    "revision": "2ae22bfbf7ca38204c923cd4e911ab66",
     "url": "/easy-english/index.html"
   },
   {
-    "revision": "26cb7da2d81245b4edc0",
-    "url": "/easy-english/static/css/main.56a6cc5d.chunk.css"
+    "revision": "5b7cc5fbf2f8a848a6ce",
+    "url": "/easy-english/static/css/main.0e68a751.chunk.css"
   },
   {
-    "revision": "198deb71b70c4f557db9",
-    "url": "/easy-english/static/js/2.786ba07b.chunk.js"
+    "revision": "48e6ffc34afe9237ecd9",
+    "url": "/easy-english/static/js/2.ea6a88e2.chunk.js"
   },
   {
     "revision": "830c55e5e5effdba80df2f1b4bb9b6b9",
-    "url": "/easy-english/static/js/2.786ba07b.chunk.js.LICENSE"
+    "url": "/easy-english/static/js/2.ea6a88e2.chunk.js.LICENSE"
   },
   {
-    "revision": "26cb7da2d81245b4edc0",
-    "url": "/easy-english/static/js/main.abb9c8c2.chunk.js"
+    "revision": "5b7cc5fbf2f8a848a6ce",
+    "url": "/easy-english/static/js/main.97d5ba55.chunk.js"
   },
   {
     "revision": "fe07ffa58a970e983345",
