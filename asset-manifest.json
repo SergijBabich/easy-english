@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easy-english/static/css/main.4c956048.chunk.css",
+    "main.css": "/easy-english/static/css/main.9a0bfd38.chunk.css",
     "main.js": "/easy-english/static/js/main.a7f0ceb7.chunk.js",
     "main.js.map": "/easy-english/static/js/main.a7f0ceb7.chunk.js.map",
     "runtime-main.js": "/easy-english/static/js/runtime-main.ee65ef05.js",
@@ -8,9 +8,9 @@
     "static/js/2.6027f863.chunk.js": "/easy-english/static/js/2.6027f863.chunk.js",
     "static/js/2.6027f863.chunk.js.map": "/easy-english/static/js/2.6027f863.chunk.js.map",
     "index.html": "/easy-english/index.html",
-    "precache-manifest.9c939c4561a1651a09e8539113e61150.js": "/easy-english/precache-manifest.9c939c4561a1651a09e8539113e61150.js",
+    "precache-manifest.f8da368dd7b9ef2df1f0f87ba2882e84.js": "/easy-english/precache-manifest.f8da368dd7b9ef2df1f0f87ba2882e84.js",
     "service-worker.js": "/easy-english/service-worker.js",
-    "static/css/main.4c956048.chunk.css.map": "/easy-english/static/css/main.4c956048.chunk.css.map",
+    "static/css/main.9a0bfd38.chunk.css.map": "/easy-english/static/css/main.9a0bfd38.chunk.css.map",
     "static/js/2.6027f863.chunk.js.LICENSE": "/easy-english/static/js/2.6027f863.chunk.js.LICENSE",
     "static/media/1.jpg": "/easy-english/static/media/1.4c2e9110.jpg",
     "static/media/10.jpg": "/easy-english/static/media/10.91e68eb4.jpg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee65ef05.js",
     "static/js/2.6027f863.chunk.js",
-    "static/css/main.4c956048.chunk.css",
+    "static/css/main.9a0bfd38.chunk.css",
     "static/js/main.a7f0ceb7.chunk.js"
   ]
 }
