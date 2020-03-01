@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.description__main {
+  display: flex;
+  height: 92vh;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.description__help {
+  font-size: 20px;
+  user-select: none;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 545;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+}
+.description__img {
+  width: 75%;
+  height: 300px;
+  background-image: url(https://pbs.twimg.com/profile_images/378800000639740507/fc0aaad744734cd1dbc8aeb3d51f8729_400x400.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.description__img img {
+  width: 100%;
+  height: 100%;
+}
+.description__task {
+  display: flex;
+  width: 600px;
+  justify-content:space-around;
+}
+.task_helper {
+  display: flex;
+  min-width: 25%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.task_helper li {
+  font-size: 20px;
+  width: 60%;
+  user-select: none;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 545;
+  color: green;
+}
+textarea {
+  resize: none;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.description__answer {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.answer_button {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.answer_button .button {
+  width: 110px;
+  height: 50px;
+  border: 1px solid #1a73e8;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-size: 17px;
+  background-color: #2ba2e2;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 520;
+}
+.change_button {
+  text-align: center;
+}
+.change_button .button {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #1a73e8;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-size: 17px;
+  background-color: #fefefe;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 520;
+}
+.modal {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 34;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #9ea4ad94;
+}
+.modal__window {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  border: 2px solid #e6dada14;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  align-items: center;
+}
+.window__button {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.window__title h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 23px;
+    color: #1a73e8;
+}
+
+.button {
+  width: 110px;
+  height: 50px;
+  border: 1px solid #1a73e8;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-size: 17px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 520;
+}
+
+.active {
+  width: 110px;
+  background: linear-gradient(45deg, #1a73e8, #83ade2);
+  transition: 0.3s;
+  color: white;
+}
+
+.active:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 10px #1a73e8;
+  background: linear-gradient(45deg, #83ade2, #1a73e8);
+}
+
+@media (max-width: 800px) {
+    .description__task {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .description__main {
+      width: 90%;
+    }
+    .description__help {
+      text-align: center;
+    }
+    .description__answer {
+      height: 40%;
+    }
+    .answer__input {
+      display: flex;
+      justify-content: center;
+    }
+    .textarea_style {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+    .description__img {
+      width: 75%;
+      height: auto;
+    }
+    textarea {
+        width: 70%;
+        margin: auto;
+    }
+
+  }
+@media (max-width: 800px) {
+  .task_helper {
+    width: 80%;
+    height: 82px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+  }
+  .description__help {
+    width: 90%;
+  }
+}
+  @media (max-width: 480px) {
+    .description__img {
+      width: 90%;
+      height: auto;
+    }
+    .task_helper {
+      width: 80%;
+      height: 82px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items:center;
+
+    }
+  }
