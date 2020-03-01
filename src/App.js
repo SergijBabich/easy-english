@@ -21,7 +21,7 @@ import store from './Redux/redux_store.js';
 const   App = () => {
   return (
         <div className='app__wrapper'>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
          <Provider store ={store}>
             <HeaderContainer />
             <Route exact path='/' render={() => <Redirect to='/start'/>}/>

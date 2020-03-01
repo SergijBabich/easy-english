@@ -4,6 +4,7 @@ import desc from './description_style/description.module.css';
 import {Textarea} from '../../Utils/formControl.js';
 import { Redirect } from 'react-router-dom';
 import PreLoader from '../../Utils/Preloader/Preloader.js';
+import loader from '../img/spin.gif';
 import {reset} from 'redux-form';
 import {required , maxLengthCreator, minLengthCreator} from '../../Utils/validator.js';
 
@@ -50,7 +51,7 @@ class  DescribePicture extends  React.Component {
               <span className={desc.description__help}>Try to describe this picture as extensively as possible, you can use auxiliary words</span>
              <div className={desc.description__task}>
                <div className={desc.description__img}>
-                  <img src={this.props.decsriptionPicture[ this.state.rand].src}/>
+                  <img src={this.props.decsriptionPicture[ this.state.rand].src ||loader}/>
                </div>
                <div class={desc.task_helper}>
                  <li>{this.props.decsriptionPicture[ this.state.rand].someWords[0]}</li>
