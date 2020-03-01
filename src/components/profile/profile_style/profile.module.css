@@ -185,7 +185,8 @@ a {
 
  }
  .name {
-   height: 50px;
+   min-height: 50px;
+   height: auto;
    font-weight: bold;
    border-bottom: 1px solid black;
  }

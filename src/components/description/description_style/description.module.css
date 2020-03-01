@@ -208,12 +208,17 @@ textarea {
       width: 90%;
       height: auto;
     }
+    .description__main {
+      width: 100%;
+    }
     .task_helper {
       width: 80%;
       height: 82px;
       flex-wrap: wrap;
       justify-content: center;
       align-items:center;
-
+    }
+    .task_helper li {
+      width: 100px;
     }
   }

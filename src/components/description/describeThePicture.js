@@ -63,9 +63,6 @@ class  DescribePicture extends  React.Component {
              </div>
              <div className={desc.description__answer}>
                <DescribeFormRedux onSubmit={this.setDescriptionPicture}/>
-            <div className={desc.change_button}>
-               <button onClick={this.changeTask} className={desc.button}>Change</button>
-            </div>
              </div>
            </div>
       )
@@ -73,6 +70,7 @@ class  DescribePicture extends  React.Component {
 }
 
 const DescribeForm = (props) => {
+
   return (
     <div>
       <form  onSubmit = {props.handleSubmit}>
@@ -81,6 +79,9 @@ const DescribeForm = (props) => {
         </div>
         <div className={desc.answer_button}>
           <button className={desc.button}>Done</button>
+        </div>
+        <div className={desc.change_button}>
+           <button onClick={reset} className={desc.button}>Change</button>
         </div>
       </form>
     </div>

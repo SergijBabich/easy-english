@@ -41,7 +41,7 @@ const Register = (props) => {
       <label for="password" class={a.icon_lock}>Password:</label>
       <div className={a.password__container}>
         <Field component={Input} name={'password'}  className={pass}  id="password"  validate={[required, minLength8]}placeholder='Enter your pass' type={'password'} />
-        <button type="submit" value="Войти">Сome in </button>
+        <button type="submit" value="Войти">Sign in </button>
       </div>
       <div className={a.extra}>
           <NavLink to='/login'>  <a href="#" className={a.register}>Log in</a> </NavLink>
