@@ -10,7 +10,7 @@ let mapStateToProps = (state) => {
     login: state.auth.login,
     password:state.auth.password,
     id:state.auth.id,
-    message:state.auth.message
+    message:state.auth.messageErrorRegister
   }
 }
 

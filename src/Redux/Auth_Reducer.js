@@ -5,6 +5,7 @@ import {userData} from './Profile_Reducer.js';
 const SET_USER_DATA =  'SET-USER-DATA';
 const GET_USER_DATA  = 'GET-USER-DATA';
 const GET_ERROR = 'GET-ERROR';
+const GET_ERROR_REGISTER = 'GET-ERROR-REGISTER';
 const EXIT_CONFIRMATION = 'EXIT-CONFIRMATION';
 let initialState = {
   login:null,
@@ -32,7 +33,11 @@ const authReducer = (state = initialState, action) => {
             return {
                 id:action.id
             }
-                 default:
+            case GET_ERROR_REGISTER:
+               return {
+                     ...state ,  messageErrorRegister:action.message
+               }
+            default:
           return state;
     }
 }
@@ -58,6 +63,13 @@ export let getError = (message) => {
 
   }
 }
+export let getErrorRegistation = (message) => {
+  return {
+    type: GET_ERROR_REGISTER,
+    message
+
+  }
+}
 
 export let exitСonfirmation  = (id) => {
   return {
@@ -74,8 +86,7 @@ export let exitСonfirmation  = (id) => {
     let data = await authAPI.register(login, password);
         dispatch(setAuthData(login, password))
           dispatch(getUserAuth(data.login, data.password, data._id));
-          dispatch(getError(data.sendCode));
-            dispatch(getError(data.sendCode));
+            dispatch(getErrorRegistation(data.sendCode));
       }
 }
 

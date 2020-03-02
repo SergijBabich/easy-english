@@ -7,12 +7,10 @@ export const required = (value) => {
 }
 
 export const requiredFieldMaxValue = (value) => {
-  console.log(value);
   if (value) {if (value.length > 20)  return `Max length is ${20} symbols`;
     return undefined;
     }
   return 'Field is required';
-
 }
 
 

@@ -23,12 +23,12 @@ class  DescribePicture extends  React.Component {
      this.setState({showModal: !this.state.showModal});
         (()=> {value.descValue=''})();
    }
+   changeTask = () => {
+     this.setState({
+       rand: Math.floor(Math.random() * this.props.decsriptionPicture.length)
+     });
+   }
 
-  changeTask = () => {
-    this.setState({
-      rand: Math.floor(Math.random() * this.props.decsriptionPicture.length)
-    });
-  }
   toCompleteTheTask = () => {
       this.props.history.push(`/profile/${this.props.id}`);
   }
@@ -64,6 +64,9 @@ class  DescribePicture extends  React.Component {
              <div className={desc.description__answer}>
                <DescribeFormRedux onSubmit={this.setDescriptionPicture}/>
              </div>
+             <div className={desc.change_button}>
+                <button onClick={this.changeTask} className={desc.button}>Change</button>
+             </div>
            </div>
       )
  }
@@ -79,9 +82,6 @@ const DescribeForm = (props) => {
         </div>
         <div className={desc.answer_button}>
           <button className={desc.button}>Done</button>
-        </div>
-        <div className={desc.change_button}>
-           <button onClick={reset} className={desc.button}>Change</button>
         </div>
       </form>
     </div>

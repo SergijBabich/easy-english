@@ -35,7 +35,7 @@ const Login = (props) => {
   return  (
  <>
  <form className={a.login} onSubmit = {props.handleSubmit}>
-    <h2>Authorize</h2>
+    <h2>Sign in</h2>
     <label for="user" class={a.icon_user}>Login:</label>
     <Field className={a.user} component={Input}  validate={[required, maxLength20]}  name={'login'}  placeholder='Enter your mail' />
     <label for="password" class={a.icon_lock}>Password:</label>
