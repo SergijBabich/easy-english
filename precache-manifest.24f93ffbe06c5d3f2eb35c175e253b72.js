@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccf9de3ccb7bd1a40295404bf630a632",
+    "revision": "95a196be149036ca3f155897fe319763",
     "url": "/easy-english/index.html"
   },
   {
-    "revision": "efe5779ac59c265bf5b0",
-    "url": "/easy-english/static/css/main.9a0bfd38.chunk.css"
+    "revision": "9d6371425601005dc14f",
+    "url": "/easy-english/static/css/main.0ead89da.chunk.css"
   },
   {
-    "revision": "32851c7cba1374ca9dc5",
-    "url": "/easy-english/static/js/2.6027f863.chunk.js"
+    "revision": "4f7a2249d26428d6c903",
+    "url": "/easy-english/static/js/2.f0b0c2ae.chunk.js"
   },
   {
     "revision": "830c55e5e5effdba80df2f1b4bb9b6b9",
-    "url": "/easy-english/static/js/2.6027f863.chunk.js.LICENSE"
+    "url": "/easy-english/static/js/2.f0b0c2ae.chunk.js.LICENSE"
   },
   {
-    "revision": "efe5779ac59c265bf5b0",
-    "url": "/easy-english/static/js/main.a7f0ceb7.chunk.js"
+    "revision": "9d6371425601005dc14f",
+    "url": "/easy-english/static/js/main.3a6a3f79.chunk.js"
   },
   {
     "revision": "fe07ffa58a970e983345",
@@ -114,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c4507b19fb92805eeda843ad30b4b22",
     "url": "/easy-english/static/media/9.8c4507b1.jpeg"
-  },
-  {
-    "revision": "c8c8e4012872e3927e1fc209e9b4749b",
-    "url": "/easy-english/static/media/backgr_first_page.c8c8e401.jpg"
   },
   {
     "revision": "1a05fb23ad80228df13f2884d76a18d6",

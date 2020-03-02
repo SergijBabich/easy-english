@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/easy-english/static/css/main.9a0bfd38.chunk.css",
-    "main.js": "/easy-english/static/js/main.a7f0ceb7.chunk.js",
-    "main.js.map": "/easy-english/static/js/main.a7f0ceb7.chunk.js.map",
+    "main.css": "/easy-english/static/css/main.0ead89da.chunk.css",
+    "main.js": "/easy-english/static/js/main.3a6a3f79.chunk.js",
+    "main.js.map": "/easy-english/static/js/main.3a6a3f79.chunk.js.map",
     "runtime-main.js": "/easy-english/static/js/runtime-main.ee65ef05.js",
     "runtime-main.js.map": "/easy-english/static/js/runtime-main.ee65ef05.js.map",
-    "static/js/2.6027f863.chunk.js": "/easy-english/static/js/2.6027f863.chunk.js",
-    "static/js/2.6027f863.chunk.js.map": "/easy-english/static/js/2.6027f863.chunk.js.map",
+    "static/js/2.f0b0c2ae.chunk.js": "/easy-english/static/js/2.f0b0c2ae.chunk.js",
+    "static/js/2.f0b0c2ae.chunk.js.map": "/easy-english/static/js/2.f0b0c2ae.chunk.js.map",
     "index.html": "/easy-english/index.html",
-    "precache-manifest.f8da368dd7b9ef2df1f0f87ba2882e84.js": "/easy-english/precache-manifest.f8da368dd7b9ef2df1f0f87ba2882e84.js",
+    "precache-manifest.24f93ffbe06c5d3f2eb35c175e253b72.js": "/easy-english/precache-manifest.24f93ffbe06c5d3f2eb35c175e253b72.js",
     "service-worker.js": "/easy-english/service-worker.js",
-    "static/css/main.9a0bfd38.chunk.css.map": "/easy-english/static/css/main.9a0bfd38.chunk.css.map",
-    "static/js/2.6027f863.chunk.js.LICENSE": "/easy-english/static/js/2.6027f863.chunk.js.LICENSE",
+    "static/css/main.0ead89da.chunk.css.map": "/easy-english/static/css/main.0ead89da.chunk.css.map",
+    "static/js/2.f0b0c2ae.chunk.js.LICENSE": "/easy-english/static/js/2.f0b0c2ae.chunk.js.LICENSE",
     "static/media/1.jpg": "/easy-english/static/media/1.4c2e9110.jpg",
     "static/media/10.jpg": "/easy-english/static/media/10.91e68eb4.jpg",
     "static/media/11.jpeg": "/easy-english/static/media/11.89fbfd98.jpeg",
@@ -35,7 +35,6 @@
     "static/media/6.jpg": "/easy-english/static/media/6.1dd53b86.jpg",
     "static/media/7.jpg": "/easy-english/static/media/7.aa3e646d.jpg",
     "static/media/9.jpeg": "/easy-english/static/media/9.8c4507b1.jpeg",
-    "static/media/start.module.css": "/easy-english/static/media/backgr_first_page.c8c8e401.jpg",
     "static/media/boy.png": "/easy-english/static/media/boy.1a05fb23.png",
     "static/media/desctiption.png": "/easy-english/static/media/desctiption.d8666d56.png",
     "static/media/down_chevron.png": "/easy-english/static/media/down_chevron.79f6e46a.png",
@@ -45,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ee65ef05.js",
-    "static/js/2.6027f863.chunk.js",
-    "static/css/main.9a0bfd38.chunk.css",
-    "static/js/main.a7f0ceb7.chunk.js"
+    "static/js/2.f0b0c2ae.chunk.js",
+    "static/css/main.0ead89da.chunk.css",
+    "static/js/main.3a6a3f79.chunk.js"
   ]
 }
